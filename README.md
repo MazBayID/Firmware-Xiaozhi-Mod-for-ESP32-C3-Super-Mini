@@ -2,7 +2,7 @@
 
 Modifikasi dan konfigurasi khusus untuk menjalankan **Xiaozhi AI** pada mikrokontroler **ESP32-C3 Super Mini**, lengkap dengan dukungan audio I2S (INMP441 & MAX98357A) serta layar OLED 0.96".
 
-Proyek ini berbasis dari repository resmi [78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32).
+Proyek ini berbasis dari repository dari: [78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32).
 
 ---
 
@@ -38,18 +38,18 @@ Berikut adalah pemetaan pin (Pinout Mapping) yang disesuaikan khusus untuk konfi
 
 ---
 
-## 🎨 Legenda Warna Kabel (Panduan Merakit)
+## 🎨 Wiring/Kabel (Panduan Merakit)
 
-*   🔴 **5V** (Merah) - Daya 5 Volt
-*   ⚫ **GND** (Hitam) - Ground / Negatif
-*   🟠 **3V** (Oranye) - Daya 3.3 Volt
-*   🔵 **GPIO 1** (Biru Tua) - I2S BCLK
-*   🟢 **GPIO 2** (Hijau) - I2S WS/LRC
-*   🟣 **GPIO 3** (Ungu) - I2S Audio OUT
-*   🔵 **GPIO 4** (Cyan/Biru Muda) - Tombol
-*   🩷 **GPIO 8** (Pink/Magenta) - I2S Audio IN
-*   🟢 **GPIO 20** (Hijau Tua) - OLED SCL
-*   🔵 **GPIO 21** (Biru) - OLED SDA
+*   🔴 **5V**  - Daya 5 Volt
+*   ⚫ **GND**  - Ground / Negatif
+*   🟠 **3V**  - Daya 3.3 Volt
+*   🔵 **GPIO 1**  - I2S BCLK
+*   🟢 **GPIO 2**  - I2S WS/LRC
+*   🟣 **GPIO 3**  - I2S Audio OUT
+*   🔵 **GPIO 4**  - Tombol
+*   🩷 **GPIO 8**  - I2S Audio IN
+*   🟢 **GPIO 20** - OLED SCL
+*   🔵 **GPIO 21** - OLED SDA
 
 ---
 
